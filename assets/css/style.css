@@ -31,9 +31,8 @@ a:first-child {
 }
 
 #contact,#portfolio,#about{
-    align-self: top;
     margin: 20px;
-    list-style-type: none;
+    
 }
 
 a{
@@ -74,7 +73,7 @@ body{
     float: left;
     padding-right: 15px;
     border-radius: 50%;
-    max-width: 40%;
+    max-width: 420px;
     height: auto;
 }
 
@@ -124,6 +123,7 @@ footer{
     height: auto;
     float: left;
     margin-right: 20px;
+    margin-top: 20px;
 }
 
 .NMS{
@@ -137,3 +137,16 @@ footer{
     clear:both;
     margin-top: 15em;
 }
+
+@media screen and (max-width: 768px) {
+#bigName{
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+.navi{
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+  }
